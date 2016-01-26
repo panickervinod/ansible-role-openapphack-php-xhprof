@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - openapphack.php
+    - openapphack.php-pecl
+    - ansible-role-openapphack-php-xhprof
